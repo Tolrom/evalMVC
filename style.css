@@ -48,8 +48,15 @@ article {
     border-radius: 1em;
     background-color: rgb(211, 164, 255);
 }
-button[type="submit"]{
+button[type="submit"] {
     padding: 1em;
+    background-color: chartreuse;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button[type="submit"]:active {
+    background-color: rgb(206, 255, 158);
 }
 footer {
     text-align: center;
