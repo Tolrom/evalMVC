@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica', sans-serif;
+}
+header {
+    background-color: rgb(133, 198, 255);
+    padding: 1em;
+}
+h1 {
+    width: 100%;
+}
+#register {
+    padding: 2em;
+    gap: 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#score {
+    display: flex;
+    padding: 2em;
+    gap: 1.5em;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5em;
+}
+form>label {
+    display: flex;
+    flex-direction: column;
+}
+form>label>input {
+    padding: .2em;
+}
+article {
+    display: flex;
+    width: 15em;
+    flex-direction: column;
+    padding: 1em;
+    gap: 1em;
+    border-radius: 1em;
+    background-color: rgb(211, 164, 255);
+}
+button[type="submit"]{
+    padding: 1em;
+}
+footer {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    padding: 1em;
+    background-color: orange;
+    width: 100%;
+}
